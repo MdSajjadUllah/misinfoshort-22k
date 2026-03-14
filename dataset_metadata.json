@@ -1,0 +1,40 @@
+{
+  "dataset_name": "MisInfoShort-22K",
+  "version": "1.0.0",
+  "license": "CC BY 4.0",
+  "language": "English",
+  "total_samples": 20000,
+  "train_samples": 16000,
+  "validation_samples": 2000,
+  "test_samples": 2000,
+  "avg_text_length_words": 18,
+  "min_text_length_words": 5,
+  "max_text_length_words": 40,
+  "diversity_ratio": 0.85,
+  "random_seed": 42,
+  "domains": ["health", "politics", "finance", "technology", "science"],
+  "labels": ["misinformation", "factual", "opinion", "satire"],
+  "misinformation_types": [
+    "conspiracy", "medical_claim", "propaganda",
+    "scam", "rumor", "myth", "none"
+  ],
+  "semantic_focuses": [
+    "cure_claim", "election_fraud", "investment_promise",
+    "technology_fear", "scientific_misinterpretation",
+    "policy_claim", "economic_prediction"
+  ],
+  "emotion_triggers": ["fear", "anger", "urgency", "curiosity", "hope", "neutral"],
+  "source_types": ["social_media", "blog", "messaging_app", "forum", "comment"],
+  "columns": {
+    "id": "Unique sample identifier",
+    "text": "Short text 5-40 words",
+    "label": "misinformation | factual | opinion | satire",
+    "misinformation_type": "conspiracy | medical_claim | propaganda | scam | rumor | myth | none",
+    "domain": "health | politics | finance | technology | science",
+    "semantic_focus": "7 fine-grained topic categories",
+    "emotion_trigger": "Primary emotion: 6 categories",
+    "emotion_secondary": "Secondary emotion for multi-label modeling",
+    "source_type": "Simulated platform origin: 5 categories",
+    "text_length": "Word count integer 5-40"
+  }
+}

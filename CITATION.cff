@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it."
+title: "MisInfoShort-22K"
+version: 1.0.0
+license: CC-BY-4.0
+abstract: >
+  20,000 short-text samples across 5 domains and 4 label classes
+  for misinformation detection research. Includes emotion triggers,
+  misinfo subtypes, semantic focus, and stratified splits.
+keywords:
+  - misinformation
+  - fake news
+  - NLP
+  - text classification
+  - emotion detection
+  - short text
+  - social media
