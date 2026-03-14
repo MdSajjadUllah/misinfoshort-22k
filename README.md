@@ -164,6 +164,7 @@ as long as you give credit.
              Detection Benchmark with Emotional and Semantic Metadata},
   year    = {2024},
   version = {1.0.0},
+  doi   = {10.5281/zenodo.19019703},
   license = {CC BY 4.0}
 }
 ```
